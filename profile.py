@@ -41,7 +41,7 @@ node.disk_image = IMAGE
 node.hardware_type = params.nodeType
   
 # Add extra storage space
-bs = node.Blockstore(name + "-bs", "/mydata")
+bs = node.Blockstore("embarcadero-bs", "/mydata")
 bs.size = str(params.tempFileSystemSize) + "GB"
 bs.placement = "any"
 
