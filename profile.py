@@ -1,7 +1,7 @@
 """ Ubuntu 22.04 Profile for Embarcadero Setup
 
 Instructions:
-Start the experiment!
+Start the experiment! Helpful scripts are found at /local/repository
 """
 
 # Import the Portal object.
